@@ -198,14 +198,14 @@ body {
     display: block;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    width: 550px;
   }
   
   .project-content {
     flex: 1 1 auto;
     padding: 1.25rem;
-  
     display: flex;
-    justify-content: center;
+    text-align: center;
     flex-direction: column;
   }
   
@@ -284,4 +284,5 @@ body {
   
   .pTitle{
     font-size: 36px;
+    text-align: center;
   }
