@@ -10,10 +10,10 @@ body {
   
   /*NAVBAR*/
   .navbar {
-    background-color: #31b0d5;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    background-color: rgba(0, 0, 255, 0.377);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     display: flex;
     justify-content: center;
   }
@@ -32,18 +32,17 @@ body {
     visibility: hidden;
   }
   
-  /*JUMBOTRON*/
-  .jumbotron {
-    height: 100vh; /*height to 100% of view height*/
-    background: #31b0d5; /*background color to blue*/
-    margin-bottom: 0; /*no bottom margin*/
   
+  .jumbotron {
+    height: 100vh; 
+    background: rgba(18, 18, 238, 0.877);
+    margin-bottom: 0; 
     display: flex;
     flex-direction: column;
   }
   
   .jumbotron-text {
-    /*TAGLINE UNDER NAME*/
+    
     font-weight: 400;
     font-size: 2em;
     color: white;
@@ -52,7 +51,7 @@ body {
   }
   
   .jumbotron-text h1 {
-    /*YOUR NAME*/
+    
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3em;
@@ -63,7 +62,7 @@ body {
     margin: 0;
   }
   
-  /*SOCIAL LINKS*/
+  
   .ul-social {
     text-align: center;
     padding-left: 0;
@@ -80,10 +79,9 @@ body {
     padding: 20px;
   }
   
-  /*ARROW LINK*/
+  
   #down-arrow {
-    /*position: absolute;
-    width: 100%;*/
+    
     margin-top: auto;
     text-align: center;
     margin-bottom: 50px;
@@ -93,9 +91,9 @@ body {
     color: white;
   }
   
-  /*CONTENT*/
+  
   .container {
-    /*sets up flexbox*/
+    
     display: flex;
     flex-direction: column;
   }
@@ -147,7 +145,7 @@ body {
     color: white;
   }
   
-  /*EDUCATION*/
+  
   .card {
     display: flex;
     flex-direction: column;
@@ -181,7 +179,7 @@ body {
     float: right;
   }
   
-  /*PROJECTS*/
+  
   .project-card {
     display: flex;
     flex-direction: row;
@@ -211,7 +209,7 @@ body {
     flex-direction: column;
   }
   
-  /*SKILLS*/
+ 
   .ul-skills {
     text-align: center;
     padding-left: 0;
@@ -228,9 +226,9 @@ body {
     font-size: 1.2em;
   }
   
-  /*CONTACT*/
+  
   .blue {
-    background: #3498db;
+    background: rgba(18, 18, 238, 0.877);
     text-align: center;
   }
   
