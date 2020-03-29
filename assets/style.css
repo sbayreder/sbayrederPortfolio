@@ -287,3 +287,7 @@ body {
     font-size: 36px;
     text-align: center;
   }
+
+  #projects{
+    color: slategray;
+  }
