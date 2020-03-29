@@ -291,3 +291,21 @@ body {
   #projects{
     color: slategray;
   }
+
+  /*media queries for project img*/
+
+  @media screen and (max-width: 480px) { 
+    .project-image img {
+      display: block;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      width: 100px;
+    }
+    .project-content {
+        flex: 1 1 auto;
+        padding: .25rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+    }
