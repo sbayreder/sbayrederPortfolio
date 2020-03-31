@@ -2,6 +2,8 @@ body {
     font-family: 'Raleway', sans-serif;
     background: rgba(242, 242, 242, .6);
     margin: 0;
+    
+    
   }
   
   * {
@@ -21,7 +23,7 @@ body {
   .navbar a {
     font-weight: 200;
     color: white;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
   }
   
@@ -308,4 +310,14 @@ body {
         text-align: center;
         flex-direction: column;
       }
+
+      .jumbotron-text h1 {
+        font-size: 2em;
+      }
+
+      .navbar a {
+        font-size: 10px;
+      }
+
+
     }
