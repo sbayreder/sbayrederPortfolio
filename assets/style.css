@@ -193,10 +193,12 @@ body {
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+    height: 250px;
   }
   
   .project-image {
     flex: 1 0 auto;
+    
   }
   
   .project-image img {
@@ -204,6 +206,7 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     width: 500px;
+    height:248px;
   }
   
   .project-content {
