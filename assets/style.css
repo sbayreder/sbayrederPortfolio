@@ -103,6 +103,8 @@ body {
   
   .row {
     display: flex;
+    background-color: grey;
+    color: white;
   }
   
   .white {
