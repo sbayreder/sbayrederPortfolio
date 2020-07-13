@@ -198,6 +198,7 @@ body {
   
   .project-image {
     flex: 1 0 auto;
+    max-width: 500px;
     
   }
   
@@ -286,18 +287,14 @@ body {
     background-color: tomato;
   }
   
-  #experience{
-    color: slategray;
-  }
+  
   
   .pTitle{
     font-size: 36px;
     text-align: center;
   }
 
-  #projects{
-    color: slategray;
-  }
+  
 
   .pText{
     color: black;
@@ -310,7 +307,8 @@ body {
       display: block;
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
-      width: 100px;
+      width: 75px;
+      height: 35px;
     }
 
     .project-content {
