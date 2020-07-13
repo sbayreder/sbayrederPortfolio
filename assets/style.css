@@ -258,7 +258,7 @@ body {
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
   }
-  
+
   .contact textarea {
     height: 150px;
     resize: none;
